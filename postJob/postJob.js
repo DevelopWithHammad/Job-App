@@ -36,6 +36,6 @@ async function postJobHandler() {
     })
 
     alert('Post added successfully, moving to jobs page, so you can have a look');
-    window.location.href = '../jobs/jobs.html';
+    window.location.href = '../dashboard/dashboard.html';
 
 }
