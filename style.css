@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-container {
+    /* background-color: red; */
+    width: 50%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+#registerBtn {
+    width: 160px;
+    height: 70px;
+    background-color: rgb(38, 38, 38);
+    border: none;
+    color: white;
+    font-size: 26px;
+    border-radius: 5px;
+}
+
+#registerBtn:hover {
+    background-color: rgb(77, 77, 77);
+}
+
+#registerBtn:active {
+    background-color: rgb(44, 44, 44);
+}

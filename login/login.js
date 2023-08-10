@@ -18,7 +18,7 @@ async function loginHandler() {
             alert("User is successfully Logged in! Diverting you to the Dashboard...")
             setTimeout(() => {
                 window.location.href = "../dashboard/dashboard.html"
-            }, 2000);
+            }, 1000);
         }
         else {
             console.log("User not found")
@@ -28,7 +28,7 @@ async function loginHandler() {
     } catch (error) {
         const errorCode = error.code;
         const errorMessage = error.message;
-        console.log(errorCode)
+        console.log(errorCode)````
         console.log(errorMessage)
 
         if (errorCode === "auth/wrong-password") {

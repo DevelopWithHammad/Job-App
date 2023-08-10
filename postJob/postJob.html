@@ -5,28 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Post a Job</title>
+    <link rel="stylesheet" href="postJob.css">
 </head>
 
 <body>
     <div id="main-container">
+        <h1 id="postJobHeading">Post a Job</h1>
     <div>
-        <input type="text" name="companyName" id="companyName" placeholder="Enter Company Name">
+        <input type="text" name="companyName" id="companyName" placeholder="Enter Company Name" class="inputField">
     </div>
 
     <div>
-    <input type="text" name="designation" id="designation" placeholder="Enter designation">
+    <input type="text" name="designation" id="designation" placeholder="Enter designation" class="inputField">
 </div>
 
 <div>
-    <input type="text" name="startingSalary" id="startingSalary" placeholder="Enter Starting Salary">
+    <input type="text" name="startingSalary" id="startingSalary" placeholder="Enter Starting Salary" class="inputField">
 </div>
 
 <div>
-    <input type="text" name="endingSalary" id="endingSalary" placeholder="Enter Ending Salary">
+    <input type="text" name="endingSalary" id="endingSalary" placeholder="Enter Ending Salary" class="inputField">
 </div>
 
 <div>
-    Select Job Type:  <input type="radio" name="jobType" value="hybrid" id="jobTypeSelection">Hybrid
+    <h4 id="jobSelectionHeading">Select Job Type:</h4>  <input type="radio" name="jobType" value="hybrid" id="jobTypeSelection">Hybrid
 
     <input type="radio" name="jobType" value="remote">Remote
 
@@ -35,8 +37,8 @@
     <input type="radio" name="jobType" value="infinix">On site
 </div>
 
-<div>
-    Choose City:
+<div id="chooseCityDiv">
+    <h4 id="chooseCityHeading">Choose City:</h4>
     <select name="city" id="jobLocationSelection">
         <option value="select">Select</option>
         <option value="Karachi">Karachi</option>
@@ -46,8 +48,8 @@
     </select>
 </div>
 
-<div>
-    <textarea name="description" id="description" cols="30" rows="10" placeholder="Add a description"></textarea>
+<div id="descriptionDiv">
+   <h4 id="descriptionHeading">Add a Description:</h4> <textarea name="description" id="description" cols="30" rows="10" placeholder="Add a description"></textarea>
 </div>
 <button id="jobSubmitBtn">Submit</button>
 </div>

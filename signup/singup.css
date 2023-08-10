@@ -25,7 +25,7 @@ body {
     padding: 5px;
 }
 
-#loginBtn {
+#signupBtn {
     width: 100px;
     height: 40px;
     background-color: rgb(38, 38, 38);
@@ -35,10 +35,10 @@ body {
     border-radius: 5px;
 }
 
-#loginBtn:hover {
+#signupBtn:hover {
     background-color: rgb(77, 77, 77);
 }
 
-#loginBtn:active {
+#signupBtn:active {
     background-color: rgb(44, 44, 44);
 }

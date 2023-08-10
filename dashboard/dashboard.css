@@ -1,9 +1,16 @@
+body {
+    background-color: rgb(237, 237, 237);
+    /* margin: 20px; */
+}
 #main-container {
     display: flex;
     flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+
 }
 #jobPostArea {
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(255, 255, 255);
     width: 44%;
     /* height: 400px; */
     padding: 15px;
@@ -54,33 +61,41 @@
 
 #indeedTeam {
     font-family: sans-serif;
+    color: #525252;
     
+
 }
 
 #databaseProgrammer {
     font-family: sans-serif;
+    color: #525252;
+    
     
 }
 
 .remainingContent {
     font-family: sans-serif;
+    color: #525252;
+    
 }
+
+
 
 
 .applyBtn {
-    width: 80px;
-    height: 30px;
-    padding: 7px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: none;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(38, 38, 38);
     border: none;
-    border-radius: 4px;
+    color: white;
     font-size: 16px;
+    border-radius: 5px;
 }
 
 .applyBtn:hover {
-    background-color: #fcfcfc;
+    background-color: rgb(77, 77, 77);
+}
 
+.applyBtn:active {
+    background-color: rgb(44, 44, 44);
 }
