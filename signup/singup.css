@@ -5,7 +5,7 @@ body {
 #main-container {
     background-color: rgb(255, 255, 255);
     width: 30%;
-    height: 620px;
+    height: 620 px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -36,7 +36,10 @@ body {
 }
 
 #signupBtn:hover {
-    background-color: rgb(77, 77, 77);
+    background-color: white;
+    color: rgb(77, 77, 77);
+    border: 3px solid rgb(77, 77, 77);
+    transition: ease 500ms;
 }
 
 #signupBtn:active {

@@ -14,7 +14,7 @@ body {
     border-radius: 15px;
 }
 
-#signupHeading {
+#loginHeading {
     font-family: sans-serif;
 }
 
@@ -36,7 +36,10 @@ body {
 }
 
 #loginBtn:hover {
-    background-color: rgb(77, 77, 77);
+    background-color: white;
+    color: rgb(77, 77, 77);
+    border: 3px solid rgb(77, 77, 77);
+    transition: ease 500ms;
 }
 
 #loginBtn:active {

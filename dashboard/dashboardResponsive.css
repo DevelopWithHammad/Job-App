@@ -1,0 +1,16 @@
+@media (max-width: 550px) {
+    #main-container {
+        display: block;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 1000px) {
+    #main-container {
+        width: 50%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}

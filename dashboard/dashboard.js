@@ -1,4 +1,4 @@
-import { auth, onAuthStateChanged, doc, getDoc, db, setDoc, updateDoc, query, collection, getDocs } from "../firebaseConfig.js"
+import { auth, onAuthStateChanged, doc, getDoc, db, setDoc, updateDoc, query, collection, getDocs, signOut } from "../firebaseConfig.js"
 
 const username = document.querySelector("#username");
 
@@ -130,4 +130,19 @@ async function getAllJobs() {
 
       console.log(doc.id, " => ", doc.data());
   });
+}
+
+
+
+const signoutBtn = document.querySelector("#signoutBtn")
+signoutBtn.addEventListener("click", signOutHandler)
+
+
+function signOutHandler() {
+    console.log("Sign out button is running!");
+    signOut(auth).then(() => {
+        window.location.href = '../signup/signup.html'
+    }).catch((error) => {
+        console.log(error)
+    });
 }
